@@ -1,0 +1,53 @@
+/* .Timer  */
+.circle-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+
+    /* a hacky attempt to center the bubbles vertically, find a proper way to do it*/
+    padding: 20vh;
+    /* height: 80vh; */
+}
+.circles {
+
+    margin: 0.1em;
+    height: 2em;
+    width: 2em;
+    background-color: #00000050;
+    border-radius: 50%;
+    border: solid;
+
+    border-color: rgba(255, 255, 255, 0.7);
+    border-width: 2%;
+    color: white;
+    font-size: 50px;
+    /* font-weight: 400px; */
+    /* size: 20em; */
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: .1s;
+}
+
+.circles:hover {
+    /* padding: 60px; */
+    width: 2.5em;
+    height: 2.5em; 
+    background-color: #0006;
+}
+
+.toggle-text {
+    /* ? why is font size changing the size of the bubble? unwanted behaviour?  */
+    font-size: 1rem;
+}
+
+#timer-comp {
+    /* padding: 60px 0px; */
+    /* margin: 10px; */
+}
